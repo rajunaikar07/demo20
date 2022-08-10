@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/simplelist"
+        android:layout_margin="5dp"
+        android:divider="@color/purple_700"
+        android:dividerHeight="2dp"
+        tools:listitem="@layout/custom_user"
+        android:background="#ffff00"
+        android:drawSelectorOnTop="true"/>
+
+</LinearLayout>
